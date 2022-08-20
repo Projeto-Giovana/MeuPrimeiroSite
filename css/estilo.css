@@ -13,7 +13,19 @@ figure{
 .container{
     width: 80%;
     margin: auto;
+
 }
 
+h1,h2{
 
+    text-align: center;
+font-family: 'Pacifico', cursive;
+}
+
+p{
+
+    font-family: 'Handlee', cursive;
+    font-size:  1.4em;
+    text-align:justify;
+}
 
