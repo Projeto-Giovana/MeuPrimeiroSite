@@ -98,7 +98,7 @@ a:link {
   
   /* visited link */
   a:visited {
-    color:#00008B;
+    color:#000;
     font-weight: bolder;
     text-decoration: none;
     font-family:'Handlee' ,cursive;
@@ -119,3 +119,22 @@ a:link {
     color: blue;
    
   }
+
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.ani{
+    width: 300px;
+    height: 800px;
+    background-color: #ffb6c1;
+    margin-top: 2%;
+    transition: width 2s;
+}
+
+.ani:hover{
+width: 800px;
+
+}
